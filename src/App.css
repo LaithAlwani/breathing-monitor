@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-header {
@@ -12,11 +13,25 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.message{
+  width: 80%;
+  padding:1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(190, 250, 190);
+  position: fixed;
+  top: 2rem;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.red {
+  background-color: rgb(248, 149, 149);
+}
 
 .btn{
   background-color: gray;
   color:white;
-  width: 350px;
+  width: 250px;
   padding:0.5rem;
   border-radius: 0.25rem;
   font-size: 1.25rem;
@@ -26,6 +41,5 @@
 
 .btn:hover{
   background-color: rgb(70, 70, 70);
-  
   cursor: pointer;
 }
