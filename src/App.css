@@ -28,6 +28,13 @@
   background-color: rgb(248, 149, 149);
 }
 
+.image{
+  width: 200px;
+  height: 200px;
+  margin-top: 1rem;
+  padding:1rem;
+}
+
 .btn{
   background-color: gray;
   color:white;
