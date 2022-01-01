@@ -14,13 +14,10 @@
   color: white;
 }
 .message{
-  width: 80%;
-  padding:1rem;
-  margin-bottom: 1rem;
-  border-radius: 0.5rem;
   background-color: rgb(190, 250, 190);
-  position: fixed;
-  top: 2rem;
+  width: 80%;
+  padding:1rem 0.5rem;
+  border-radius: 0.5rem;
   color: black;
   font-size: 2rem;
   font-weight: bold;
@@ -30,10 +27,9 @@
 }
 
 .image{
-  width: 200px;
-  height: 200px;
-  margin-top: 1rem;
-  padding:1rem;
+  width: auto;
+  height: 150px;
+  margin-top: 0.5rem;
 }
 
 .btn{

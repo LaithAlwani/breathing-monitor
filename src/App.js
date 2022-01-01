@@ -53,7 +53,6 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <h1>Breath Count: {breathCount}</h1>
         {message && (
           <div
             className={message === "Breath OUT" ? "message red" : "message"}
@@ -70,6 +69,7 @@ function App() {
             />{" "}
           </div>
         )}
+        <h1>Breath Count: {breathCount}</h1>
         {!isActivated ? (
           <button className="btn" onClick={handleClick}>
             Start
